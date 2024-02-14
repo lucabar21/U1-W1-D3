@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+article {
+  margin-top: 2rem;
+  margin-inline: 2rem;
+  padding: 1rem;
+  background-color: #fef7e2;
+  color: #742305;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.halh-img {
+  object-fit: cover;
+}
+article img {
+  margin-right: 1rem;
+  width: 100%;
+}
+
+.half-text {
+  padding: 1.5rem;
+  font-size: 0.7rem;
+}
+
+.half-text p {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 700px) {
+  article {
+    flex-direction: column;
+  }
+}
